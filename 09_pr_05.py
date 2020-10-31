@@ -1,7 +1,3 @@
-names = ["harry", "shubham", "rohit", "rohan", "aditi", "shipra"]
-name = input("Enter the name to check\n")
-
-if name in names:
-    print("Your name is present in the list")
-else:
-    print("Your name is not present in the list")
+n = 3
+for i in range(n):
+    print("*" * (n-i)) # Prints * n-i times

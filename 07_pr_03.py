@@ -1,4 +1,4 @@
-st = "This is a string with double  spaces"
-
-doubleSpaces = st.find("  ")
-print(doubleSpaces)
+print("Hello", end=" ")
+print("How", end=" ")
+print("are", end=" ")
+print("you?", end=" ")
