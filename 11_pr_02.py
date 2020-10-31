@@ -1,5 +1,13 @@
-l1 = ["Harry", "Sohan", "Sachin", "Rahul"]
+class Animals:
+    animalType = "Mammal"
 
-for name in l1:
-    if name.startswith("S"):
-        print("Hello " + name)
+class Pets:
+    color = "White"
+
+class Dog:
+    @staticmethod
+    def bark():
+        print("Bow bow!")
+
+d  = Dog()
+d.bark()
